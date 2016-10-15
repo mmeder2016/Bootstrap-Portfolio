@@ -2,44 +2,63 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Portfolio</title>
+		<title>portfolio.html page</title>	
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-	 	<header class="header-top-middle">
-			<section class="name">
-				<h2>Michael Meder</h2>
-			</section>
-		 	<section class="site-links">
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</section>
-		</header>
-		<div class="div-content-bgrnd-color">
+		<div class="container-fluid" style="padding:0">
+			 <header>
+				<div class="row">
+					<div class="col-md-1 col-sm-0"></div>
 
-			<div class="div-content">
-				<aside class="portfolio">
-					<h3>Portfolio</h3>
+					<div class="col-md-3 col-sm-6 name">
+						<h2 class="h2-white-color">Michael Meder</h2>
+					</div>
+
+					<div class="col-md-4 col-sm-0 empty-space">
+					</div>
+
+					<div class="col-md-3 col-sm-6 site-links" "background-color:#FFFF33">
+						<a href="index.html">About</a>
+						<a href="portfolio.html">Portfolio</a>
+						<a href="contact.html">Contact</a>
+					</div>
+					<div class="col-md-1 col-sm-0"></div>
+				</div>
+			</header>
+
+	 		<div class="row div-content-960px-centered">
+				<div class="col-md-1"></div>
+
+				<div class="col-sm-6 left-aside-650px">
+					<h2 class="h2-teal-color">Portfolio</h2>
 					<hr />
-					<img class="portfolio-imgs-left" src="assets/images/ulc.jpg" alt="Random Lorempixel Image">
-					<img class="portfolio-imgs-right" src="assets/images/urc.jpg" alt="Random Lorempixel Image">
-					<img class="portfolio-imgs-left" src="assets/images/llc.jpg" alt="Random Lorempixel Image">
-					<img class="portfolio-imgs-right" src="assets/images/lrc.jpg" alt="Random Lorempixel Image">
-				</aside>
+					<img class="portfolio-imgs-left img-responsive" src="assets/images/ulc.jpg" alt="Random Lorempixel Image">
+					<img class="portfolio-imgs-right img-responsive" src="assets/images/urc.jpg" alt="Random Lorempixel Image">
+					<img class="portfolio-imgs-left img-responsive" src="assets/images/llc.jpg" alt="Random Lorempixel Image">
+					<img class="portfolio-imgs-right img-responsive" src="assets/images/lrc.jpg" alt="Random Lorempixel Image">
+				</div>
 
-				<aside class="connect-links">
-					<h3>Connect With Me</h3>
+	        	<div class="col-sm-1"></div>
+
+	        	<div class="col-sm-3 right-aside-connect-links-270px">
+	 				<h2 class="h2-teal-color-center">Connect With Me<h2>
 					<hr class="connect-hr" />
 					<a href="https://github.com/mmeder2016"><img class="connect-link-images" alt="Github" src="assets/images/github-128.png"></a>
 					<a href="www.linkedin.com/in/michael-meder-a960604"><img class="connect-link-images" alt="LinkeIn" src="assets/images/linkedin-128.png"></a>
-					<a href="http://stackoverflow.com/users/6827925/michael"><img class="connect-link-images" alt="Stack Overflow" src="assets/images/stackoverflow.png"></a>
-				</aside>
+					<a href="http://stackoverflow.com/users/6827925/michael"><img class="connect-link-images" alt="Stack Overflow" src="assets/images/stackoverflow.png"></a>       			
+	        	</div>
+
+				<div class="col-md-1 connect-links"></div>
 			</div>
+
+
+			<footer>
+				Copyright 2016 Michael Meder
+			</footer> 
 		</div>
-		<footer>
-			Copyright 2016 Michael Meder
-		</footer> 
-		
 	</body>
 </html>

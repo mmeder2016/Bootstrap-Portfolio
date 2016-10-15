@@ -2,25 +2,39 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Index.html page</title>
+		<title>index.html page</title>	
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-	 	<header class="header-top-middle">
-			<section class="name">
-				<h2>Michael Meder</h2>
-			</section>
-		 	<section class="site-links">
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
-			</section>
-		</header>
-		<div class="div-content-bgrnd-color">
+		<div class="container-fluid" style="padding:0">
+			 <header>
+				<div class="row">
+					<div class="col-md-1 col-sm-0"></div>
 
-	 		<section class="div-content">
-				<aside class="index">
-					<h3>About Me</h3>
+					<div class="col-md-3 col-sm-6 name">
+						<h2 class="h2-white-color">Michael Meder</h2>
+					</div>
+
+					<div class="col-md-4 col-sm-0 empty-space">
+					</div>
+
+					<div class="col-md-3 col-sm-6 site-links" "background-color:#FFFF33">
+						<a href="index.html">About</a>
+						<a href="portfolio.html">Portfolio</a>
+						<a href="contact.html">Contact</a>
+					</div>
+					<div class="col-md-1 col-sm-0"></div>
+				</div>
+			</header>
+
+	 		<div class="row div-content-960px-centered">
+				<div class="col-md-1"></div>
+
+				<div class="col-md-6 left-aside-650px">
+					<h2 class="h2-teal-color">About Me</h2>
 					<hr />
 					<a href="https://www.youtube.com/watch?v=_YrNQaXdOxU">
 						<img class="index-me-img" src="assets/images/groucho.jpg" alt="My Picture">
@@ -40,21 +54,25 @@
 					<p>
 						I never forget a face, but in your case I'll be glad to make an exception.
 					</p>
-				</aside>
-				
-				<aside class="connect-links">
-					<h3>Connect With Me</h3>
+				</div>
+
+	        	<div class="col-md-1"></div>
+
+	        	<div class="col-md-3 right-aside-connect-links-270px">
+	 				<h2 class="h2-teal-color-center">Connect With Me<h2>
 					<hr class="connect-hr" />
 					<a href="https://github.com/mmeder2016"><img class="connect-link-images" alt="Github" src="assets/images/github-128.png"></a>
 					<a href="www.linkedin.com/in/michael-meder-a960604"><img class="connect-link-images" alt="LinkeIn" src="assets/images/linkedin-128.png"></a>
-					<a href="http://stackoverflow.com/users/6827925/michael"><img class="connect-link-images" alt="Stack Overflow" src="assets/images/stackoverflow.png"></a>
-				</aside>
-			</section>
+					<a href="http://stackoverflow.com/users/6827925/michael"><img class="connect-link-images" alt="Stack Overflow" src="assets/images/stackoverflow.png"></a>       			
+	        	</div>
 
+				<div class="col-md-1 connect-links"></div>
+			</div>
+
+
+			<footer>
+				Copyright 2016 Michael Meder
+			</footer> 
 		</div>
-		<footer>
-			Copyright 2016 Michael Meder
-		</footer> 
-		
 	</body>
 </html>
