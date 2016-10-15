@@ -112,15 +112,19 @@ aside {
 	/*width: 650px;*/
 }
 .portfolio-imgs-left { /*portfolio page*/
-	margin: 15px 0px 15px;
+	margin: .7em;
+	/*margin: 0 auto;*/
 	float: left;
 }
 .portfolio-imgs-right { /*portfolio page*/
-	margin: 15px 0px 15px;
-	float: right;
+	margin: .7em;
+	/*margin: 0 auto;*/
+	float: left;
 }
 
-
+img {
+	max-width: 100%;
+}
 
 .contact-submit-button {
 	height: 40px;
